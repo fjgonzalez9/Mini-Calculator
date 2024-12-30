@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/04/30/40/19/1000_F_430401943_0r1rJlCjaEfzq5gJGRENuQtaB8SVGmT7.jpg');
+    color: rgb(79, 56, 56);
+}
+
+.Calculator {
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;
+    margin: 500px auto;
+    background-color: rgb(241, 119, 119);
+    border: 1px solid rgb(241, 119, 119);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-size: 4em;
+    padding: 10px;
+    background-color: #ffb300dd;
+    border-bottom: 1px solid rgb(241, 119, 119);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(241, 119, 119);
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 3em;
+    background-color: #5bf4d5a7;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    height: 75%;
+    padding: 50px;
+    font-size: 2em;
+    background-color: #5bf4d5b7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    border: 1;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6fdaf0;
+}
